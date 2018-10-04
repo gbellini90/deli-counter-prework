@@ -12,7 +12,6 @@ end
 end
 
 def take_a_number(katz_deli,name)
-  binding.pry
   katz_deli.push(name)
   place=katz_deli.index(name)
   puts "Welcome, #{name}. You are number #{place+1} in line."
